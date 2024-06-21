@@ -18,4 +18,3 @@ tempstring=""
 for i in range(len(qes_list)):
     tempstring=tempstring+"\n"+qes_list[i]+"\n"+ans_list[i]+"\n--------------------------------------------------------------------------------------------------\n\n"
     print(tempstring)
-
