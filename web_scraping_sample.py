@@ -29,3 +29,4 @@ file = open("qn_ans_ans", "w")
 
 for i in range(len(question_list)):
     cursor.execute("insert into qn_ans values(%s,%s)", (question_list[i], answer_list[i]))
+    print(counter)
